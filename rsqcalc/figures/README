@@ -1,0 +1,16 @@
+##########################################################################################
+Scripts used to generate all paper figures. This README describes all assumed inputs that cannot be provided due to file size or privacy concerns.
+##########################################################################################
+
+Dependencies:
+ggplot2, gridExtra, data.table, scales
+
+Main figures:
+2: individual-level genotype concordance for Omni2.5M array and TOPMed reference panel ([ancestry].tot.[variantMAF].ind), genotype PCs from Laser server ([ancestry].study_pc.txt), proportion African ancestry by individual for African American/African Diaspora study (inpsyght.percent_african.txt), Caribbean/non-Caribbean origin information for individuals in Hispanic/Latino and ID mapping file (biome.ancestry.txt; biome.map.txt)
+3: 
+
+Supplemental figures:
+
+S5,S6,S7: See Main Figure 2.
+
+

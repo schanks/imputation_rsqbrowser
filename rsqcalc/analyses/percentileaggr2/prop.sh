@@ -1,0 +1,16 @@
+Rscript percentile_allvar.R -r ../../inpsyght.bi.snv.tab -o inpsyght.bi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../inpsyght.bi.indel.tab -o inpsyght.bi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../inpsyght.multi.snv.tab -o inpsyght.multi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../inpsyght.multi.indel.tab -o inpsyght.multi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../biome.bi.snv.tab -o biome.bi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../biome.bi.indel.tab -o biome.bi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../biome.multi.snv.tab -o biome.multi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../biome.multi.indel.tab -o biome.multi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../mlof.bi.snv.tab -o mlof.bi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../mlof.bi.indel.tab -o mlof.bi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../mlof.multi.snv.tab -o mlof.multi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../mlof.multi.indel.tab -o mlof.multi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../metsim.bi.snv.tab -o metsim.bi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../metsim.bi.indel.tab -o metsim.bi.indel.top.perc8.tab
+Rscript percentile_allvar.R -r ../../metsim.multi.snv.tab -o metsim.multi.snv.top.perc8.tab
+Rscript percentile_allvar.R -r ../../metsim.multi.indel.tab -o metsim.multi.indel.top.perc8.tab
