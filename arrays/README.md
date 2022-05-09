@@ -41,7 +41,7 @@ for i in {1..22}; do echo "tabix -p vcf chr$i.core.sort.vcf.gz"; done > tabix.sh
 ```
 *repeat for other 3 arrays*
 
-## 4. Upload
+## Upload
 Sorted arrays (chr*.[array].sort.vcf.gz) are uploaded to [Michigan Imputation Server](https://imputationserver.sph.umich.edu/).
 
 
