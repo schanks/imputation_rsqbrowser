@@ -1,6 +1,6 @@
-#########################################################################################
+#Analyses
 This directory contains all scripts used to generate intermediate results files from merged Rsq results files downloaded at https://imputationserver.sph.umich.edu/rsq-browser/downloads. The intermediate results files are also provided as size and privacy concerns allow.
-#########################################################################################
+
 
 concordance:
 Commands used to calculate concordance between sequenced and imputed 'best-guess' genotypes and to generate intermediate results for Figures 2,S5,S6,S7. Individual-level summary statistics cannot be provided. 
