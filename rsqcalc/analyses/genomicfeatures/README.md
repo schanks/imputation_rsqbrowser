@@ -80,10 +80,16 @@ Will need to merge all.prune.in with wgs.bi.snv.sites to create [ancestry].bi.sn
 
 ## Perform statistical analyses
 a) Logistic regression 
-logit.R: Produces output in the form [ancesty].logit.Omni25_TOPMed.coefs (for Figure 4) and [ancestry].represults.Omni25_TOPMed.coefs (for Figure S9).  Also calculates Nagelkerke Rsq for Figure 4B but does not output results. Example script is included for METSIM
+```
+Rscript logit.R
+```
+Produces output in the form [ancesty].logit.Omni25_TOPMed.coefs (for Figure 4) and [ancestry].represults.Omni25_TOPMed.coefs (for Figure S9).  Also calculates Nagelkerke Rsq for Figure 4B but does not output results. Example script is included for METSIM
 
 b) Zero-one inflated beta regression
-zoib.R: Produces output in form [ancestry].zoibresults.Omni25_TOPMed.coefs.  Example is included for METSIM
+```
+Rscript zoib.R
+```
+Produces output in form [ancestry].zoibresults.Omni25_TOPMed.coefs.  Example is included for METSIM
 
 
 
