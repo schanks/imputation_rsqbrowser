@@ -5,7 +5,7 @@ This file details how WGS variants were subset to those on each of the 4 arrays.
 
 
 ## Input files
-chr*.wgs.vcf.gz = VCF of sequenced variants that pass QC (Taliun et al 2021)
+chr*.wgs.vcf.gz = VCFs of sequenced variants that pass QC (Taliun et al 2021)
 
 ## Download strand files (we downloaded on March 23 2020):
 **InfiniumCore**
