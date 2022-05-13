@@ -1,5 +1,5 @@
 
-# Microarray Simuluation
+# Microarray Simulation
 
 This file details how WGS variants were subset to those on each of the 4 arrays. 
 
