@@ -15,9 +15,9 @@ chr$i.dose.vcf.gz= Imputed VCFs downloaded from server and lifted to b38 (1000G 
 wgs.[variant type].sites= Tab delimited file with CHR, POS, REF, ALT, AF for each sequenced variant
 
 ## Scripts:
-Rsq.pl: Calculates Rsq between sequenced genotypes and imputed dosages for biallelic variants.
+Rsq.pl: Calculates Rsq between sequenced genotypes and imputed dosages for biallelic variants. Written by Corbin Quick.
 
-Rsq_multi.pl: Calculates Rsq between sequenced genotypes and imputed dosages for multiallelic variants.
+Rsq_multi.pl: Calculates Rsq between sequenced genotypes and imputed dosages for multiallelic variants. Adapted from Rsq.pl written by Corbin Quick.
 
 rsq_merge_all.R: Merges Rsq results for all combinations of genotyping arrays and reference panels for biallelic SNVs.
 
