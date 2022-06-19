@@ -17,7 +17,6 @@ args <- parse_args(parser, positional_arguments = 0)
 opt <- args$options
 print(opt)
 
-print("Beginning results file read")
 results = fread(opt$results, stringsAsFactors = FALSE)
 print("Results file read")
 print("Results subset")
@@ -33,7 +32,7 @@ print("Results file formatted")
 
 print(colnames(results))
 #Aggregate
-resultsag=aggregate(results[,c("Core_1000G", "Core_HRC", "Core_TOPMed", "OmniExp_1000G","OmniExp_HRC", "OmniExp_TOPMed", "Omni25_1000G", "Omni25_HRC", "Omni25_TOPMed","MEGA_1000G", "MEGA_HRC", "MEGA_TOPMed")],by=list(results$bin), FUN=mean)
+resultsag=aggregate(results[,c("HO_1000G", "HO_HRC", "HO_TOPMed")],by=list(results$bin), FUN=mean)
 resultsag$MAF=aggregate(results[,c("MAF")], by=list(results$bin), FUN=mean, na.rm=TRUE)$MAF
 print("Rsq aggregated")
 outfile=opt$out

@@ -8,4 +8,7 @@ humanomni.bi.snv.tab: Variant-level Rsq for every variant in METSIM WGS. Not pro
 1. Proportion of variants with rsq>0.8:
 Rscript percentile_metsim.R -r humanomni.bi.snv.tab -o metsim.humanomni.bi.snv.perc8.tab 
 
+2. Mean rsq:
+Rscript mean_metsim.R -r humanomni.bi.snv.tab -o metsim.humanomni.bi.snv.mean.tab
+
 
