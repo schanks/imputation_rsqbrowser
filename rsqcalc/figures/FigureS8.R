@@ -45,7 +45,7 @@ example$Ancestry=factor(example$Ancestry, levels=c("African","Hispanic/Latino","
 
 for (i in 1:22){
 	chr=paste("chr",i,sep="")
-	filename=paste("~/FigS9_",i,".tiff",sep="")
+	filename=paste("~/FigS8_",i,".tiff",sep="")
 	tiff(file=filename, height=85, width=174, units="mm", res=300)
 	ggplot(example[which(example$CHR==chr)], aes(x=POS, y=value))+ggtitle(paste("Chromosome",i,sep=" "))+xlab("Position (Mb)")+ylab(expression(Observed~imputation~r^2))+geom_point(aes(col=Ancestry),size=0.2)+geom_hline(yintercept=0.8)+theme_bw()+facet_grid(Ancestry~Array)+theme(legend.position="none",legend.text=element_text(size=7), legend.title=element_text(size=8),strip.background=element_rect(color=NA, fill="white"), strip.text=element_text(size=6), plot.title=element_text(size=8),axis.title=element_text(size=8),axis.text=element_text(size=7))+scale_color_manual(values=c("#e41a1c","#4daf4a","#377eb8","#984ea3"))
 	dev.off()
