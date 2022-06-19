@@ -8,3 +8,9 @@ bi.snv.tab: Merged R2 file for GATK results.  Analogous to metsim.bi.snv.tab dow
 ```
 Rscript ../percentileaggr2/percentile_bisnv.R -r bi.snv.tab -o metsim.gatk.bi.snv.perc8.tab
 ```
+
+## Calculate mean r2
+```
+Rscript ../percnetileaggr2/mean_bisnv.R -r bi.snv.tab -o metsim.gatk.bi.snv.mean.tab
+```
+
